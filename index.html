@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Veterinaria </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<!--Navegación-->
+
+<body>
+    <header>
+        <img src="banner-principal.jpg" alt="banner-principal">
+        <nav>
+            <ul>
+                <li><a href="index.html"> <i class="nav-icon fa fa-home"> </i> Inicio </a> </li>
+                <li><a href="us.html"> <i class="nav-icon fa fa-user"> </i> ¿Quiénes somos? </a></li>
+                <li><a href="productos.html"> <i class="nav-icon fa fa-shopping-cart"> </i>Productos</a></li>
+                <li><a href="Contáctanos.html"> <i class="nav-icon fa fa-phone"> </i>Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Inicio-->
+    <!--Bienvenida-->
+
+    <section>
+        <h1>!Bienvenido a VetCare!</h1>
+       <p>Brindamos el mejor cuidado para tu mascota con amor y profesionalismo. Nuestro equipo de expertos está comprometido con el bienestar y la felicidad de tu compañero peludo.</p>
+    </section>
+
+    <!--Quienes somos-->
+
+    <section>
+        <h1>¿Quiénes Somos?</h1>
+       <p>Somos un equipo de veterinarios apasionados por la salud y el bienestar de las mascotas. Contamos con años de experiencia en el cuidado animal y nos especializamos en brindar atención médica integral para todo tipo de mascotas, desde perros y gatos hasta animales exóticos.</p>
+       <div class="team">
+        <div class="team-member">
+            <img src="usuario-1.jpg">
+            <p>Dr. Juan Pérez</p>
+        </div>
+        <div class="team-member">
+            <img src="usuario-2.jpg">
+            <p>Dr. Carlos Gómez</p>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!--Productos-->
+    <section>
+    <div class="shop">
+        <h1>Nuestra Tienda</h1>
+        <p>Explora nuestros productos para el cuidado de tu mascota.</p>
+
+        <div class="products">
+            <div class="product">
+                <img src="producto5.jpg" alt="Correa de Paseo">
+                <h2>Correa de Paseo</h2>
+                <button class="btn-comprar"><i class="fa fa-shopping-cart"></i> Comprar</button>
+            </div>
+
+            <div class="product">
+                <img src="producto6.png" alt="Alimento Balanceado">
+                <h2>Alimento Balanceado</h2>
+                <button class="btn-comprar"><i class="fa fa-shopping-cart"></i> Comprar</button>
+            </div>
+
+            <div class="product">
+                <img src="producto3.jpg" alt="Bolsas de Popo">
+                <h2>Bolsas de Popo</h2>
+                <button class="btn-comprar"><i class="fa fa-shopping-cart"></i> Comprar</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Contacto-->
+    <section>
+        <h1>Contacto</h1>
+        <p> <strong>Móvil:</strong>(+57) 315 8910553<br>
+            <strong>Email:</strong>servicioalcliente@drmesa.net</p>
+    </section>
+
+    <!--Formulario-->
+    <section class="contact">
+                <form action="POST">
+
+                    <label for="nombre">Tu Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required> 
+
+                    <label for="correo"> Correo </label>
+                    <input type="email" id="correo" name="correo" required> <br>
+            
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="comentario" rows="4 "></textarea> 
+
+                    <button type="submit"> Enviar </button> 
+
+                </form>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+</body>
+</html>
