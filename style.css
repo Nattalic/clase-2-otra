@@ -139,15 +139,14 @@ p {
     margin:50px;
 }
 
-/* Seccion formularios */
+/* Seccion formulario */
 .contact {
     background: white;
-    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     max-width: 700px;
     text-align: center;
-    margin-bottom: 60px;
+   
 }
 
 .contact label {
@@ -170,12 +169,28 @@ p {
     width: 100%;
     padding: 12px;
     margin-top: 20px;
-    background: #2575fc;
+    background: #242697;
     color: white;
     font-size: 18px;
     border-radius: 5px;
 }
 
 .contact button:hover {
-    background: #242697;
+    background: #2575fc;
+}
+
+#contactanos h1 {
+    margin: 0px;
+}
+
+/* Seccion footer */
+.footer p {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #242697;
 }
